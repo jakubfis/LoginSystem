@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    background: rgb(139,0,0);
+    background: linear-gradient(45deg, rgba(139,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(128,0,128,1) 100%);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.form {
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+    border: 5px solid darkgray;
+    border-radius: 10%;
+}
+input[type="radio"] {
+    margin-bottom:20px;
+  }
+    
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #BC13FE;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: #666;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
